@@ -43,20 +43,3 @@ function client(ctx) {
 
   bot.hears(`${arr}`);
 }
-
-bot.hears("Я клієнт", async (ctx) => {
-  client(ctx);
-  // await ctx.replyWithHTML("----", {
-  //   reply_markup: {
-  //     keyboard: [
-  //       [{ text: `Львів` }, { text: `Тернопіль` }],
-  //       [{ text: `Тернопіль` }],
-  //       [{ text: `Івано-Франківськ` }],
-  //       [{ text: `Рівне` }],
-  //       // [{ text: `⚙ Особистий кабінет` }],
-  //       //   [{ text: `Збір коштів на допомогу армії` }],
-  //     ],
-  //     resize_keyboard: true,
-  //   },
-  // });
-});

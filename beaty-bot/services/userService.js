@@ -60,7 +60,8 @@ const masterCreate = async (user, values) => {
           userCity: values.value3,
           userService: values.value4,
           userPhoto: values.value5,
-          userTime: values.value6,
+          userOfice: values.value6,
+          userDescription: values.value7,
         },
         {
           upsert: true,

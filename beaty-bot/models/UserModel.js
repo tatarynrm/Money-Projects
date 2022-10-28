@@ -32,7 +32,10 @@ const UserSchema = new mongoose.Schema(
     userPhoto: {
       type: String,
     },
-    userTime: {
+    userOfice: {
+      type: String,
+    },
+    userDescription: {
       type: String,
     },
   },
